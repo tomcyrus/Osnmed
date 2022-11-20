@@ -1,0 +1,56 @@
+{
+    "name" : "Paytm",
+    "unique_identifier" : "paytm",
+    "version" : "1.0",
+    "about" : "Paytm is an Indian e-commerce payment system and financial technology company, based out of Noida, India.",
+    "directories" :
+    [
+        {
+            "name" : "application/libraries/Paytm"
+        }
+    ],
+    "sql_file"  : "updater.php",
+    "libraries" :
+    [
+
+    ],
+    "files" :
+    [
+        {
+            "root_directory"    : "uploads/addons/paytm/application/controllers/addons/Paytm.php",
+            "update_directory"  : "application/controllers/addons/Paytm.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/libraries/Paytm/config_paytm.php",
+            "update_directory"  : "application/libraries/Paytm/config_paytm.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/libraries/Paytm/encdec_paytm.php",
+            "update_directory"  : "application/libraries/Paytm/encdec_paytm.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/views/backend/admin/paytm_settings.php",
+            "update_directory"  : "application/views/backend/admin/paytm_settings.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/views/payment/paytm_checkout.php",
+            "update_directory"  : "application/views/payment/paytm_checkout.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/views/payment/paytm_payment_gateway.php",
+            "update_directory"  : "application/views/payment/paytm_payment_gateway.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/views/payment/paytm_payment_gateway_form.php",
+            "update_directory"  : "application/views/payment/paytm_payment_gateway_form.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/application/views/payment/paytm_merchant_checkout.php",
+            "update_directory"  : "application/views/payment/paytm_merchant_checkout.php"
+        },
+        {
+            "root_directory"    : "uploads/addons/paytm/assets/payment/paytm.png",
+            "update_directory"  : "assets/payment/paytm.png"
+        }
+    ]
+}

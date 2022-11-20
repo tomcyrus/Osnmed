@@ -1,0 +1,10 @@
+Follow the instruction below to update the Elegant theme from version 1.4 to version 1.5 :
+
+PLEASE KEEP A BACKUP OF YOUR FILES, IF YOU HAVE ANY CUSTOMIZATION ON THE APPLICATION.
+
+- You can see the custom.css file and views folder here.
+
+1. The elegant folder inside the assets folder, replace on your server on this location: Root directory > application > views > frontend > elegant
+
+2. The custom.css file, replace on your server on this location: Root directory > assets > frontend > elegant > css > custom.css
+That's it.
