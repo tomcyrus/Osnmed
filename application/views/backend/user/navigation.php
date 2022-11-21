@@ -52,7 +52,7 @@ $status_wise_courses = $this->crud_model->get_status_wise_courses();
 			<li class="side-nav-item">
 				<a href="<?php echo site_url('user/become_an_instructor'); ?>" class="side-nav-link <?php if ($page_name == 'become_an_instructor') echo 'active'; ?>">
 					<i class="dripicons-archive"></i>
-					<span><?php echo get_phrase('become_an_instructor'); ?></span>
+					<span><?php echo get_phrase('become_a_caregiver'); ?></span>
 				</a>
 			</li>
 		<?php endif; ?>

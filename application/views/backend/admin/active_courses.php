@@ -3,7 +3,7 @@
       <tr>
         <th><?php echo get_phrase('title'); ?></th>
         <th><?php echo get_phrase('category'); ?></th>
-        <th><?php echo get_phrase('instructor'); ?></th>
+        <th><?php echo get_phrase('caregiver'); ?></th>
         <th><?php echo get_phrase('number_of_sections'); ?></th>
         <th><?php echo get_phrase('number_of_lessons'); ?></th>
         <th><?php echo get_phrase('number_of_enrolled_users'); ?></th>

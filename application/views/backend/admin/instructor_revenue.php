@@ -2,7 +2,7 @@
   <div class="col-xl-12">
     <div class="card">
       <div class="card-body">
-        <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('instructor_revenue'); ?></h4>
+        <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('caregiver_revenue'); ?></h4>
       </div> <!-- end card body-->
     </div> <!-- end card -->
   </div><!-- end col-->
@@ -12,13 +12,13 @@
   <div class="col-xl-12">
     <div class="card">
       <div class="card-body">
-        <h4 class="mb-3 header-title"><?php echo get_phrase('instructor_revenue'); ?></h4>
+        <h4 class="mb-3 header-title"><?php echo get_phrase('caregiver_revenue'); ?></h4>
         <div class="table-responsive-sm mt-4">
           <table id="basic-datatable" class="table table-striped table-centered mb-0">
             <thead>
               <tr>
                 <th><?php echo get_phrase('enrolled_course'); ?></th>
-                <th><?php echo get_phrase('instructor'); ?></th>
+                <th><?php echo get_phrase('caregiver'); ?></th>
                 <th><?php echo get_phrase('total_amount'); ?></th>
                 <th><?php echo get_phrase('instructor_revenue'); ?></th>
               </tr>
@@ -51,7 +51,7 @@
                     <?php echo currency($payment['amount']); ?>
                   </td>
                   <td>
-                    <?php echo currency($payment['instructor_revenue']); ?>
+                    <?php echo currency($payment['caregiver_revenue']); ?>
                   </td>
                 </tr>
               <?php endforeach; ?>

@@ -1287,5 +1287,14 @@
     "question_has_been_updated": "Question has been updated",
     "anxiety": "Anxiety",
     "ascites": "Ascites",
-    "backache": "Backache"
+    "backache": "Backache",
+    "required_for_caregiver": "Required for caregiver",
+    "add_caregiver": "Add caregiver",
+    "caregiver_payouts": "Caregiver payouts",
+    "caregiver_applications": "Caregiver applications",
+    "caregiver_revenue": "Caregiver revenue",
+    "manage_caregiver": "Manage caregiver",
+    "add_new_caregiver": "Add new caregiver",
+    "caregiver_payout": "Caregiver payout",
+    "caregiver_settings": "Caregiver settings"
 }

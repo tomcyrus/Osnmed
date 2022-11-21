@@ -106,7 +106,7 @@
                     <!-- Course Instructors -->
                     <div class="col-xl-3">
                         <div class="form-group">
-                            <label for="instructor_id"><?php echo get_phrase('instructor'); ?></label>
+                            <label for="instructor_id"><?php echo get_phrase('caregiver'); ?></label>
                             <select class="form-control select2" data-toggle="select2" name="instructor_id" id='instructor_id'>
                                 <option value="all" <?php if ($selected_instructor_id == 'all') echo 'selected'; ?>><?php echo get_phrase('all'); ?></option>
                                 <?php foreach ($instructors as $instructor) : ?>
@@ -164,7 +164,7 @@
                                         <td><?php echo ++$key; ?></td>
                                         <td>
                                             <strong><a href="<?php echo site_url('admin/course_form/course_edit/' . $course['id']); ?>"><?php echo ellipsis($course['title']); ?></a></strong><br>
-                                            <small class="text-muted"><?php echo get_phrase('instructor') . ': <b>' . $instructor_details['first_name'] . ' ' . $instructor_details['last_name'] . '</b>'; ?></small>
+                                            <small class="text-muted"><?php echo get_phrase('caregiver') . ': <b>' . $instructor_details['first_name'] . ' ' . $instructor_details['last_name'] . '</b>'; ?></small>
                                         </td>
                                         <td>
                                             <span class="badge badge-dark-lighten"><?php echo $category_details['name']; ?></span>
@@ -212,21 +212,21 @@
                                                     <li>
                                                         <?php if ($course['status'] == 'active') : ?>
                                                             <?php if ($course['user_id'] != $this->session->userdata('user_id')) : ?>
-                                                                <a class="dropdown-item" href="#" onclick="showAjaxModal('<?php echo base_url(); ?>modal/popup/mail_on_course_status_changing_modal/pending/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_instructor'); ?>');">
+                                                                <a class="dropdown-item" href="#" onclick="showAjaxModal('<?php echo base_url(); ?>modal/popup/mail_on_course_status_changing_modal/pending/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_caregiver'); ?>');">
                                                                     <?php echo get_phrase('mark_as_pending'); ?>
                                                                 </a>
                                                             <?php else : ?>
-                                                                <a class="dropdown-item" href="#" onclick="confirm_modal('<?php echo site_url(); ?>admin/change_course_status_for_admin/pending/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_instructor'); ?>');">
+                                                                <a class="dropdown-item" href="#" onclick="confirm_modal('<?php echo site_url(); ?>admin/change_course_status_for_admin/pending/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_caregiver'); ?>');">
                                                                     <?php echo get_phrase('mark_as_pending'); ?>
                                                                 </a>
                                                             <?php endif; ?>
                                                         <?php else : ?>
                                                             <?php if ($course['user_id'] != $this->session->userdata('user_id')) : ?>
-                                                                <a class="dropdown-item" href="#" onclick="showAjaxModal('<?php echo base_url(); ?>modal/popup/mail_on_course_status_changing_modal/active/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_instructor'); ?>');">
+                                                                <a class="dropdown-item" href="#" onclick="showAjaxModal('<?php echo base_url(); ?>modal/popup/mail_on_course_status_changing_modal/active/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_caregiver'); ?>');">
                                                                     <?php echo get_phrase('mark_as_active'); ?>
                                                                 </a>
                                                             <?php else : ?>
-                                                                <a class="dropdown-item" href="#" onclick="confirm_modal('<?php echo site_url(); ?>admin/change_course_status_for_admin/active/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_instructor'); ?>');">
+                                                                <a class="dropdown-item" href="#" onclick="confirm_modal('<?php echo site_url(); ?>admin/change_course_status_for_admin/active/<?php echo $course['id']; ?>/<?php echo $selected_category_id; ?>/<?php echo $selected_instructor_id; ?>/<?php echo $selected_price; ?>/<?php echo $selected_status; ?>', '<?php echo get_phrase('inform_caregiver'); ?>');">
                                                                     <?php echo get_phrase('mark_as_active'); ?>
                                                                 </a>
                                                             <?php endif; ?>

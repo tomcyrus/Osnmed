@@ -36,7 +36,7 @@
                     <div class="col-sm-4 offset-sm-2">
                         <div class="mt-3 float-sm-right">
                             <p class="font-13"><strong><?php echo get_phrase("purchase_date"); ?>: </strong> &nbsp;&nbsp;&nbsp; <?php echo date('D, d-M-Y', $payment_details['date_added']); ?></p>
-                            <p class="font-13"><strong><?php echo get_phrase("instructor_payment_status"); ?>: </strong> <?php if ($payment_details['instructor_payment_status'] == 1): ?><span class="badge badge-success float-right"><?php echo get_phrase("paid"); ?></span><?php else: ?><span class="badge badge-danger float-right"><?php echo get_phrase("unpaid"); ?></span><?php endif; ?> </p>
+                            <p class="font-13"><strong><?php echo get_phrase("caregiver_payment_status"); ?>: </strong> <?php if ($payment_details['instructor_payment_status'] == 1): ?><span class="badge badge-success float-right"><?php echo get_phrase("paid"); ?></span><?php else: ?><span class="badge badge-danger float-right"><?php echo get_phrase("unpaid"); ?></span><?php endif; ?> </p>
                             <p class="font-13"><strong><?php echo get_phrase("order_id"); ?>: </strong> <span class="float-right"><?php echo sprintf('%04d', $payment_details['id']); ?></span></p>
                         </div>
                     </div><!-- end col -->
@@ -45,7 +45,7 @@
 
                 <div class="row mt-4">
                     <div class="col-sm-4">
-                        <h6><?php echo get_phrase("instructor_details"); ?></h6>
+                        <h6><?php echo get_phrase("caregiver_details"); ?></h6>
                         <address>
                             <?php echo $instructor_details['first_name'].' '.$instructor_details['last_name']; ?><br>
                             <?php echo $instructor_details['email']; ?><br>
@@ -70,7 +70,7 @@
                                     <tr><th>#</th>
                                         <th><?php echo get_phrase("course_name"); ?></th>
                                         <th><?php echo get_phrase("total_amount"); ?></th>
-                                        <th><?php echo get_phrase("instructor_revenue"); ?></th>
+                                        <th><?php echo get_phrase("caregiver_revenue"); ?></th>
                                         <th class="text-right"><?php echo get_phrase("total"); ?></th>
                                     </tr></thead>
                                     <tbody>

@@ -45,7 +45,7 @@ $admin_details = $this->user_model->get_admin_details()->row_array();
 
                     <div class="row mt-4">
                         <div class="col-sm-4">
-                            <h6><?php echo get_phrase("instructor_details"); ?></h6>
+                            <h6><?php echo get_phrase("caregiver_details"); ?></h6>
                             <address>
                                 <?php echo $instructor_details['first_name'].' '.$instructor_details['last_name']; ?><br>
                                 <?php echo $instructor_details['email']; ?><br>

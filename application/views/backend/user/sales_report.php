@@ -38,7 +38,7 @@
                         <thead>
                             <tr>
                                 <th><?php echo get_phrase('course_name'); ?></th>
-                                <th><?php echo get_phrase('instructor_revenue'); ?></th>
+                                <th><?php echo get_phrase('caregiver_revenue'); ?></th>
                             </tr>
                         </thead>
                         <tbody>

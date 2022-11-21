@@ -22,7 +22,7 @@
                         </tr>
 
                         <tr>
-                            <th width = "50%"><?php echo get_phrase('instructor'); ?>:</th>
+                            <th width = "50%"><?php echo get_phrase('caregiver'); ?>:</th>
                             <td>
                                 <?php
                                     $admin_details = $this->user_model->get_admin_details()->row_array();

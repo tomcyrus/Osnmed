@@ -2,7 +2,7 @@
     <div class="col-xl-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('instructor_settings'); ?></h4>
+                <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('caregiver_settings'); ?></h4>
             </div>
         </div>
     </div>
@@ -12,7 +12,7 @@
     <div class="col-xl-6">
         <div class="card">
             <div class="card-body">
-                <h4 class="mb-3 header-title"><?php echo get_phrase('public_instructor_settings');?></h4>
+                <h4 class="mb-3 header-title"><?php echo get_phrase('public_caregiver_settings');?></h4>
 
                 <form action="<?php echo site_url('admin/instructor_settings/update'); ?>" method="post" enctype="multipart/form-data">
                     <div class="form-group">
@@ -23,7 +23,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="instructor_application_note"><?php echo get_phrase('instructor_application_note'); ?></label>
+                        <label for="instructor_application_note"><?php echo get_phrase('caregiver_application_note'); ?></label>
                         <div class="form-group">
                             <textarea class="form-control" name="instructor_application_note" rows="8" cols="80"><?php echo get_settings('instructor_application_note'); ?></textarea>
                         </div>
@@ -42,11 +42,11 @@
     <div class="col-xl-6">
         <div class="card">
             <div class="card-body">
-                <h4 class="mb-3 header-title"><?php echo get_phrase('instructor_commission_settings');?></h4>
+                <h4 class="mb-3 header-title"><?php echo get_phrase('caregiver_commission_settings');?></h4>
 
                 <form action="<?php echo site_url('admin/instructor_settings/update'); ?>" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <label for="instructor_revenue"><?php echo get_phrase('instructor_revenue_percentage'); ?></label>
+                        <label for="instructor_revenue"><?php echo get_phrase('caregiver_revenue_percentage'); ?></label>
                         <div class="input-group">
                             <input type="number" name = "instructor_revenue" id = "instructor_revenue" class="form-control" onkeyup="calculateAdminRevenue(this.value)" min="0" max="100" value="<?php echo get_settings('instructor_revenue'); ?>">
                             <div class="input-group-append">

@@ -25,7 +25,7 @@
     <div class="col-xl-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title mb-4"><?php echo get_phrase('instructor_revenue'); ?></h4>
+                <h4 class="header-title mb-4"><?php echo get_phrase('caregiver_revenue'); ?></h4>
                 <div class="mt-3 chartjs-chart" style="height: 320px;">
                     <canvas id="task-area-chart"></canvas>
                 </div>

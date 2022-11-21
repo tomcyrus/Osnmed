@@ -106,7 +106,7 @@
                     <!-- Course Instructors -->
                     <div class="col-xl-3">
                         <div class="form-group">
-                            <label for="instructor_id"><?php echo get_phrase('instructor'); ?></label>
+                            <label for="instructor_id"><?php echo get_phrase('caregiver'); ?></label>
                             <select class="form-control select2" data-toggle="select2" name="instructor_id" id='instructor_id'>
                                 <option value="all" <?php if ($selected_instructor_id == 'all') echo 'selected'; ?>><?php echo get_phrase('all'); ?></option>
                                 <?php foreach ($instructors as $instructor) : ?>

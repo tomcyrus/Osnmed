@@ -140,28 +140,28 @@
                                             <label class="col-md-3 col-form-label" for="facebook_link"> <?php echo get_phrase('paypal_client_id'); ?></label>
                                             <div class="col-md-9">
                                                 <input type="text" id="paypal_client_id" name="paypal_client_id" class="form-control">
-                                                <small><?php echo get_phrase("required_for_instructor"); ?></small>
+                                                <small><?php echo get_phrase("required_for_caregiver"); ?></small>
                                             </div>
                                         </div>
                                         <div class="form-group row mb-3">
                                             <label class="col-md-3 col-form-label" for="paypal_secret_key"> <?php echo get_phrase('paypal_secret_key'); ?></label>
                                             <div class="col-md-9">
                                                 <input type="text" id="paypal_secret_key" name="paypal_secret_key" class="form-control">
-                                                <small><?php echo get_phrase("required_for_instructor"); ?></small>
+                                                <small><?php echo get_phrase("required_for_caregiver"); ?></small>
                                             </div>
                                         </div>
                                         <div class="form-group row mb-3">
                                             <label class="col-md-3 col-form-label" for="stripe_public_key"><?php echo get_phrase('stripe_public_key'); ?></label>
                                             <div class="col-md-9">
                                                 <input type="text" id="stripe_public_key" name="stripe_public_key" class="form-control">
-                                                <small><?php echo get_phrase("required_for_instructor"); ?></small>
+                                                <small><?php echo get_phrase("required_for_caregiver"); ?></small>
                                             </div>
                                         </div>
                                         <div class="form-group row mb-3">
                                             <label class="col-md-3 col-form-label" for="stripe_secret_key"><?php echo get_phrase('stripe_secret_key'); ?></label>
                                             <div class="col-md-9">
                                                 <input type="text" id="stripe_secret_key" name="stripe_secret_key" class="form-control">
-                                                <small><?php echo get_phrase("required_for_instructor"); ?></small>
+                                                <small><?php echo get_phrase("required_for_caregiver"); ?></small>
                                             </div>
                                         </div>
                                     </div> <!-- end col -->

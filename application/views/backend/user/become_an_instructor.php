@@ -5,7 +5,7 @@
     <div class="col-xl-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('become_an_instructor'); ?></h4>
+                <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('become_a_caregiver'); ?></h4>
             </div> <!-- end card body-->
         </div> <!-- end card -->
     </div><!-- end col-->
@@ -27,7 +27,7 @@
 <?php else: ?>
     <div class="alert alert-info" role="alert">
         <h4 class="alert-heading"><?php echo get_phrase('congratulations'); ?>!</h4>
-        <p><?php echo get_phrase('you_are_already_an_instructor'); ?></p>
+        <p><?php echo get_phrase('you_are_already_a_caregiver'); ?></p>
     </div>
 <?php endif; ?>
 

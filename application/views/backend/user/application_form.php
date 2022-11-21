@@ -1,4 +1,4 @@
-<h4 class="header-title mb-3"><?php echo get_phrase('instructor_application_form'); ?></h4>
+<h4 class="header-title mb-3"><?php echo get_phrase('caregiver_application_form'); ?></h4>
 <div class="alert alert-info" role="alert">
     <h4 class="alert-heading"><?php echo get_phrase('heads_up'); ?>!</h4>
     <p><?php echo get_settings('instructor_application_note'); ?></p>

@@ -2,7 +2,7 @@
 // DEFINING MODULE FOR SETTING PERMISSION
 // MAKE SURE TO KEEP A PERMISSION FOR USERS AND THEME
 $modules = [
-    'category', 'course', 'user', 'instructor', 'student', 'enrolment', 'revenue', 'messaging', 'addon', 'theme', 'settings', 'coupon'
+    'category', 'course', 'user', 'caregiver', 'student', 'enrolment', 'revenue', 'messaging', 'addon', 'theme', 'settings', 'coupon'
 ];
 
 ?>

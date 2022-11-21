@@ -174,7 +174,7 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                                 <?php endif; ?>
 
                                                 <div class="form-group row mb-3">
-                                                    <label class="col-md-2 col-form-label" for="existing_instructors"><?php echo get_phrase('instructor_of_this_course'); ?></label>
+                                                    <label class="col-md-2 col-form-label" for="existing_instructors"><?php echo get_phrase('caregiver_of_this_course'); ?></label>
                                                     <div class="col-md-10">
                                                         <?php if ($course_details['multi_instructor']) :
                                                             $instructor_ids = explode(',', $course_details['user_id']);
@@ -205,7 +205,7 @@ $course_details = $this->crud_model->get_course_by_id($course_id)->row_array();
                                                 </div>
 
                                                 <div class="form-group row mb-3">
-                                                    <label class="col-md-2 col-form-label" for="new_instructor"><?php echo get_phrase('add_new_instructor'); ?></label>
+                                                    <label class="col-md-2 col-form-label" for="new_instructor"><?php echo get_phrase('add_new_caregiver'); ?></label>
                                                     <div class="col-md-10">
                                                         <select class="select2 form-control select2-multiple" data-toggle="select2" multiple="multiple" data-placeholder="Choose ..." name="new_instructors[]">
                                                             <?php $instructors = $this->user_model->get_instructor()->result_array(); ?>

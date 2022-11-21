@@ -2,7 +2,7 @@
     <div class="col-xl-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('instructor_payouts'); ?></h4>
+                <h4 class="page-title"> <i class="mdi mdi-apple-keyboard-command title_icon"></i> <?php echo get_phrase('caregiver_payouts'); ?></h4>
             </div> <!-- end card body-->
         </div> <!-- end card -->
     </div><!-- end col-->
@@ -55,7 +55,7 @@
                                     <tr>
                                         <th>#</th>
                                         <th><?php echo get_phrase('image'); ?></th>
-                                        <th><?php echo get_phrase('instructor'); ?></th>
+                                        <th><?php echo get_phrase('caregiver'); ?></th>
                                         <th><?php echo get_phrase('payout_amount'); ?></th>
                                         <th><?php echo get_phrase('payment_type'); ?></th>
                                         <th><?php echo get_phrase('payout_date'); ?></th>
@@ -91,7 +91,7 @@
                                     <tr>
                                         <th>#</th>
                                         <th><?php echo get_phrase('image'); ?></th>
-                                        <th><?php echo get_phrase('instructor'); ?></th>
+                                        <th><?php echo get_phrase('caregiver'); ?></th>
                                         <th><?php echo get_phrase('payout_amount'); ?></th>
                                         <th><?php echo get_phrase('payout_date'); ?></th>
                                         <th><?php echo get_phrase('option'); ?></th>
@@ -124,12 +124,12 @@
                                                     <input type="submit" class="btn btn-outline-info btn-sm btn-rounded"        value="<?php echo get_phrase('pay_with_paypal'); ?>">
                                                   </form>
                                                 <?php else: ?>
-                                                  <button type="button" class = "btn btn-outline-danger btn-sm btn-rounded" name="button" onclick="alert('<?php echo get_phrase('this_instructor_has_not_provided_valid_paypal_client_id'); ?>')"><?php echo get_phrase('pay_with_paypal'); ?></button>
+                                                  <button type="button" class = "btn btn-outline-danger btn-sm btn-rounded" name="button" onclick="alert('<?php echo get_phrase('this_caregiver_has_not_provided_valid_paypal_client_id'); ?>')"><?php echo get_phrase('pay_with_paypal'); ?></button>
                                                 <?php endif; ?>
                                                 <?php if ($stripe_keys[0]['public_live_key'] != "" && $stripe_keys[0]['secret_live_key']): ?>
                                                   <?php include 'stripe_payment_gateway_form.php'; ?>
                                                 <?php else: ?>
-                                                  <button type="button" class = "btn btn-outline-danger btn-sm btn-rounded" name="button" onclick="alert('<?php echo get_phrase('this_instructor_has_not_provided_valid_public_key_or_secret_key'); ?>')"><?php echo get_phrase('pay_with_stripe'); ?></button>
+                                                  <button type="button" class = "btn btn-outline-danger btn-sm btn-rounded" name="button" onclick="alert('<?php echo get_phrase('this_caregiver_has_not_provided_valid_public_key_or_secret_key'); ?>')"><?php echo get_phrase('pay_with_stripe'); ?></button>
                                                 <?php endif; ?>
                                               <?php else: ?>
                                                 <a href="<?php echo site_url('admin/invoice/'.$pending_payout['id']); ?>" class="btn btn-outline-primary btn-rounded btn-sm"><i class="mdi mdi-printer-settings"></i></a>

@@ -20,7 +20,7 @@
     style="opacity: 0.05;">
 
     <div class="package-details">
-        <strong><?php echo get_phrase('instructor');?> | <?php echo $instructor_name;?></strong> <br>
+        <strong><?php echo get_phrase('caregiver');?> | <?php echo $instructor_name;?></strong> <br>
         <strong><?php echo get_phrase('payout_status');?> | <?php echo get_phrase('pending');?></strong> <br>
         <strong><?php echo get_phrase('payment_due');?> | <?php echo $amount_to_pay;?></strong> <br>
         <div id="paypal-button" style="margin-top: 20px;"></div><br>
