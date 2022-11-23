@@ -32,7 +32,7 @@
               start with ayurvedic and herbal treatment.</p>
             <h3 class="mb-4">What are the Signs & Symptoms of Acidity?</h3>
 
-            <p>The signs & symptoms that are easily noticeable in acidity patients are:</p>
+            <p><b>The signs & symptoms that are easily noticeable in acidity patients are:</b></p>
             <ul class="list-styled mb-5">
            <li> Burning sensation in the chest region</li>
             <li>Heartburn</li>
@@ -119,7 +119,22 @@
                         Virechan will balance the vitiated state of pitta dosha in the body & results in maintaining a proper digestive system. In this procedure, 
                         purgation is induced by drugs that will eliminate excess pitta dosha from the body.</li>
                   </ul>
+                  <h3 class="mb-4">Healthy Tips & Diet for Acidity Patients:</h3>
+                  <ul class="list-styled mb-5">
 
+                 <li> Drink plenty of water and juices prepared at home.</li>
+                  <li>Include raw vegetables & fruits in your diet as a salad.</li>
+                  <li>Prepare an herbal tea from 3 to 4 basil leaves, boil in two cups of water until remaining one cup. Strain the mixture, let it cool down, & drink this once.</li>
+                  <li>Fennel seeds reduce acidity, improves digestion, solve indigestion issues. You can eat one teaspoon of fennel seeds after meals.
+                     Or take a teaspoon of fennel seeds in two cups of water. Boil until remaining one cup. Strain the mixture let it cool down and drink this once.</li>
+                  <li>Drinking buttermilk is good in acidity by adding a pinch of black pepper and rocksalt, & coriander leaves.</li>
+                  <li>Green coconut water is also good for acidity patients.</li>
+                  <li>Consume cold milk by adding a pinch of green cardamom & fennel seeds powder in it.</li>
+                  <li>Eat fruits like papaya, apple, watermelon, muskmelon, banana, apricot, etc.</li>
+                  <li>Avoid fast & processed food items.</li>
+                  <li>Add whole grain in your diet and avoid white flour (maida).</li>
+                  <li>Do perform yoga poses like Kapalbhati Pranayama, Halasana, Bhastrika Pranayam, Vajrasana, Pawanamuktasana, Ushtrasana, & Anulom vilom Pranayam, etc.</li>
+                                      </ul>
 
 
             <!-- <a href="notice-single.html" class="btn btn-primary">Download</a> -->

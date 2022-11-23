@@ -630,6 +630,13 @@ class Home extends CI_Controller
         $page_data['page_title'] = site_phrase('cookie_policy');
         $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
+    public function curriculum()
+    {
+        $page_data['page_name'] = 'curriculum';
+        $page_data['page_title'] = site_phrase('curriculum');
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
+        // $this->load->view('frontend/diseases/acidity', $page_data);
+    }
 
 
     // Version 1.1
@@ -1049,507 +1056,455 @@ class Home extends CI_Controller
     {
         $page_data['page_name'] = 'diseases/acidity';
         $page_data['page_title'] = site_phrase('acidity');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function acne()
+      public function acne()
     {
         $page_data['page_name'] = 'diseases/acne';
         $page_data['page_title'] = site_phrase('acne');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-
-    public function alzheimer()
+      public function alzheimer()
     {
         $page_data['page_name'] = 'diseases/alzheimer';
         $page_data['page_title'] = site_phrase('alzheimer');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function amenorrhea()
+      public function amenorrhea()
     {
         $page_data['page_name'] = 'diseases/amenorrhea';
         $page_data['page_title'] = site_phrase('amenorrhea');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function anxiety()
+      public function anxiety()
     {
         $page_data['page_name'] = 'diseases/anxiety';
         $page_data['page_title'] = site_phrase('anxiety');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function appendicitis()
+  
+      public function appendicitis()
     {
         $page_data['page_name'] = 'diseases/appendicitis';
         $page_data['page_title'] = site_phrase('appendicitis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function ascites()
+      public function ascites()
     {
         $page_data['page_name'] = 'diseases/ascites';
         $page_data['page_title'] = site_phrase('ascites');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function azoospermia()
+      public function azoospermia()
     {
         $page_data['page_name'] = 'diseases/azoospermia';
         $page_data['page_title'] = site_phrase('azoospermia');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function backache()
+      public function backache()
     {
         $page_data['page_name'] = 'diseases/backache';
         $page_data['page_title'] = site_phrase('backache');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function benign()
+      public function benign()
     {
         $page_data['page_name'] = 'diseases/benign';
         $page_data['page_title'] = site_phrase('benign');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function blemishes()
+  
+      public function blemishes()
     {
         $page_data['page_name'] = 'diseases/blemishes';
         $page_data['page_title'] = site_phrase('blemishes');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function bronchitis()
+      public function bronchitis()
     {
         $page_data['page_name'] = 'diseases/bronchitis';
         $page_data['page_title'] = site_phrase('bronchitis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function cataract()
+  
+      public function cataract()
     {
         $page_data['page_name'] = 'diseases/cataract';
         $page_data['page_title'] = site_phrase('cataract');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function cervical_spondylitis()
+      public function cervical_spondylitis()
     {
         $page_data['page_name'] = 'diseases/cervical_spondylitis';
         $page_data['page_title'] = site_phrase('cervical_spondylitis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function chronic_kidney()
+      public function chronic_kidney()
     {
         $page_data['page_name'] = 'diseases/chronic_kidney';
         $page_data['page_title'] = site_phrase('chronic_kidney');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function chronic_laryngitis()
+      public function chronic_laryngitis()
     {
         $page_data['page_name'] = 'diseases/chronic_laryngitis';
         $page_data['page_title'] = site_phrase('chronic_laryngitis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function coeliac_disease()
+      public function coeliac_disease()
     {
         $page_data['page_name'] = 'diseases/coeliac_disease';
         $page_data['page_title'] = site_phrase('coeliac_disease');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function constipation()
+      public function constipation()
     {
         $page_data['page_name'] = 'diseases/constipation';
         $page_data['page_title'] = site_phrase('constipation');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function dengue_fever()
+  
+      public function dengue_fever()
     {
         $page_data['page_name'] = 'diseases/dengue_fever';
         $page_data['page_title'] = site_phrase('dengue_fever');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function diabetes_mellitus()
+      public function diabetes_mellitus()
     {
         $page_data['page_name'] = 'diseases/diabetes_mellitus';
         $page_data['page_title'] = site_phrase('diabetes_mellitus');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function diarrhea()
+      public function diarrhea()
     {
         $page_data['page_name'] = 'diseases/diarrhea';
         $page_data['page_title'] = site_phrase('diarrhea');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-
-
-    public function eczema()
+  
+      public function eczema()
     {
         $page_data['page_name'] = 'diseases/eczema';
         $page_data['page_title'] = site_phrase('eczema');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function education()
+  
+      public function education()
     {
         $page_data['page_name'] = 'diseases/education';
         $page_data['page_title'] = site_phrase('education');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function endometriosis()
+      public function endometriosis()
     {
         $page_data['page_name'] = 'diseases/endometriosis';
         $page_data['page_title'] = site_phrase('endometriosis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function epilepsy()
+      public function epilepsy()
     {
         $page_data['page_name'] = 'diseases/epilepsy';
         $page_data['page_title'] = site_phrase('epilepsy');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function epistaxis()
+      public function epistaxis()
     {
         $page_data['page_name'] = 'diseases/epistaxis';
         $page_data['page_title'] = site_phrase('epistaxis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function fatty_liver()
+  
+      public function fatty_liver()
     {
         $page_data['page_name'] = 'diseases/fatty_liver';
         $page_data['page_title'] = site_phrase('fatty_liver');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function fistula()
+  
+      public function fistula()
     {
         $page_data['page_name'] = 'diseases/fistula';
         $page_data['page_title'] = site_phrase('fistula');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function food_poisoning()
+      public function food_poisoning()
     {
         $page_data['page_name'] = 'diseases/food_poisoning';
         $page_data['page_title'] = site_phrase('food_poisoning');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function gall_stones()
+      public function gall_stones()
     {
         $page_data['page_name'] = 'diseases/gall_stones';
         $page_data['page_title'] = site_phrase('gall_stones');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function gout()
+      public function gout()
     {
         $page_data['page_name'] = 'diseases/gout';
         $page_data['page_title'] = site_phrase('gout');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function heart_disease()
+      public function heart_disease()
     {
         $page_data['page_name'] = 'diseases/heart_disease';
         $page_data['page_title'] = site_phrase('heart_disease');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function hypertension()
+  
+      public function hypertension()
     {
         $page_data['page_name'] = 'diseases/hypertension';
         $page_data['page_title'] = site_phrase('hypertension');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function hyperthyroidism()
+      public function hyperthyroidism()
     {
         $page_data['page_name'] = 'diseases/hyperthyroidism';
         $page_data['page_title'] = site_phrase('hyperthyroidism');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function ibs()
+      public function ibs()
     {
         $page_data['page_name'] = 'diseases/ibs';
         $page_data['page_title'] = site_phrase('ibs');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function insomnia()
+      public function insomnia()
     {
         $page_data['page_name'] = 'diseases/insomnia';
         $page_data['page_title'] = site_phrase('insomnia');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function ischemic()
+      public function ischemic()
     {
         $page_data['page_name'] = 'diseases/ischemic';
         $page_data['page_title'] = site_phrase('ischemic');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function itp()
+  
+      public function itp()
     {
         $page_data['page_name'] = 'diseases/itp';
         $page_data['page_title'] = site_phrase('itp');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function jaundice()
+  
+      public function jaundice()
     {
         $page_data['page_name'] = 'diseases/jaundice';
         $page_data['page_title'] = site_phrase('jaundice');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function knee_pain()
+      public function knee_pain()
     {
         $page_data['page_name'] = 'diseases/knee_pain';
         $page_data['page_title'] = site_phrase('knee_pain');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function leucoderma()
+      public function leucoderma()
     {
         $page_data['page_name'] = 'diseases/leucoderma';
         $page_data['page_title'] = site_phrase('leucoderma');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function leucorrhea()
+  
+      public function leucorrhea()
     {
         $page_data['page_name'] = 'diseases/leucorrhea';
         $page_data['page_title'] = site_phrase('leucorrhea');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function liver_cirrhosis()
+  
+      public function liver_cirrhosis()
     {
         $page_data['page_name'] = 'diseases/liver_cirrhosis';
         $page_data['page_title'] = site_phrase('liver_cirrhosis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function menopause()
+      public function menopause()
     {
         $page_data['page_name'] = 'diseases/menopause';
         $page_data['page_title'] = site_phrase('menopause');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function migraine()
+      public function migraine()
     {
         $page_data['page_name'] = 'diseases/migraine';
         $page_data['page_title'] = site_phrase('migraine');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function miscarriage()
+      public function miscarriage()
     {
         $page_data['page_name'] = 'diseases/miscarriage';
         $page_data['page_title'] = site_phrase('miscarriage');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function mouth_ulcers()
+      public function mouth_ulcers()
     {
         $page_data['page_name'] = 'diseases/mouth_ulcers';
         $page_data['page_title'] = site_phrase('mouth_ulcers');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function osteoarthritis()
+      public function osteoarthritis()
     {
         $page_data['page_name'] = 'diseases/osteoarthritis';
         $page_data['page_title'] = site_phrase('osteoarthritis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function ovarian_cyst()
+      public function ovarian_cyst()
     {
         $page_data['page_name'] = 'diseases/ovarian_cyst';
         $page_data['page_title'] = site_phrase('ovarian_cyst');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function parkinson()
+      public function parkinson()
     {
         $page_data['page_name'] = 'diseases/parkinson';
         $page_data['page_title'] = site_phrase('parkinson');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function piles()
+      public function piles()
     {
         $page_data['page_name'] = 'diseases/piles';
         $page_data['page_title'] = site_phrase('piles');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function pms()
+      public function pms()
     {
         $page_data['page_name'] = 'diseases/pms';
         $page_data['page_title'] = site_phrase('pms');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function polycystic_ovarian()
+      public function polycystic_ovarian()
     {
         $page_data['page_name'] = 'diseases/polycystic_ovarian';
-        $page_data['page_title'] = site_phrase('ppolycystic_ovarianms');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $page_data['page_title'] = site_phrase('polycystic_ovarian');
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function pregnancy()
+  
+      public function pregnancy()
     {
         $page_data['page_name'] = 'diseases/pregnancy';
         $page_data['page_title'] = site_phrase('pregnancy');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function prostate()
+      public function prostate()
     {
         $page_data['page_name'] = 'diseases/prostate';
         $page_data['page_title'] = site_phrase('prostate');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function psoriasis()
+  
+      public function psoriasis()
     {
         $page_data['page_name'] = 'diseases/psoriasis';
         $page_data['page_title'] = site_phrase('psoriasis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function pulmonary()
+      public function pulmonary()
     {
         $page_data['page_name'] = 'diseases/pulmonary';
         $page_data['page_title'] = site_phrase('pulmonary');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function rheumatoid()
+      public function rheumatoid()
     {
         $page_data['page_name'] = 'diseases/rheumatoid';
         $page_data['page_title'] = site_phrase('rheumatoid');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function ringworm()
+  
+      public function ringworm()
     {
         $page_data['page_name'] = 'diseases/ringworm';
         $page_data['page_title'] = site_phrase('ringworm');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function schizophrenia()
+      public function schizophrenia()
     {
         $page_data['page_name'] = 'diseases/schizophrenia';
         $page_data['page_title'] = site_phrase('schizophrenia');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function scleroderma()
+  
+      public function scleroderma()
     {
         $page_data['page_name'] = 'diseases/scleroderma';
         $page_data['page_title'] = site_phrase('scleroderma');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function sinusitis()
+  
+      public function sinusitis()
     {
         $page_data['page_name'] = 'diseases/sinusitis';
         $page_data['page_title'] = site_phrase('sinusitis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function sjogren()
+  
+      public function sjogren()
     {
         $page_data['page_name'] = 'diseases/sjogren';
         $page_data['page_title'] = site_phrase('sjogren');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function slipped_disc()
+  
+      public function slipped_disc()
     {
         $page_data['page_name'] = 'diseases/slipped_disc';
         $page_data['page_title'] = site_phrase('slipped_disc');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function thalassemia()
+      public function thalassemia()
     {
         $page_data['page_name'] = 'diseases/thalassemia';
         $page_data['page_title'] = site_phrase('thalassemia');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function tinnitus()
+      public function tinnitus()
     {
         $page_data['page_name'] = 'diseases/tinnitus';
         $page_data['page_title'] = site_phrase('tinnitus');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function tonsilitis()
+      public function tonsilitis()
     {
         $page_data['page_name'] = 'diseases/tonsilitis';
         $page_data['page_title'] = site_phrase('tonsilitis');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function trigeminal_neuralgia()
+      public function trigeminal_neuralgia()
     {
         $page_data['page_name'] = 'diseases/trigeminal_neuralgia';
         $page_data['page_title'] = site_phrase('trigeminal_neuralgia');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function sle()
+  
+      public function sle()
     {
         $page_data['page_name'] = 'diseases/sle';
         $page_data['page_title'] = site_phrase('sle');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function ulcerative()
+      public function ulcerative()
     {
         $page_data['page_name'] = 'diseases/ulcerative';
         $page_data['page_title'] = site_phrase('ulcerative');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function uncategorized()
+  
+      public function uncategorized()
     {
         $page_data['page_name'] = 'diseases/uncategorized';
         $page_data['page_title'] = site_phrase('uncategorized');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
-    public function uti()
+      public function uti()
     {
         $page_data['page_name'] = 'diseases/uti';
         $page_data['page_title'] = site_phrase('uti');
-        $this->load->view('frontend/' . get_frontend_settings('theme') . '/Index',  $page_data);
-        // $this->load->view('frontend/diseases/acidity', $page_data);
+        $this->load->view('frontend/' . get_frontend_settings('theme') . '/index', $page_data);
     }
+  
 }

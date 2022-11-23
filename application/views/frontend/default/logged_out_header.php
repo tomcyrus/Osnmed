@@ -71,6 +71,7 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="<?php echo site_url('home/login'); ?>">Login</a></li>
                 <li><a class="dropdown-item" href="<?php echo site_url('home/sign_up'); ?>">Signup</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('home/curriculum'); ?>">Curriculum</a></li>
                 <li><a class="dropdown-item" href="<?php echo site_url('home/privacy_policy'); ?>">Privacy Policy</a></li>
                 <li><a class="dropdown-item" href="<?php echo site_url('home/terms_and_condition'); ?>">T&C</a></li>
                 
